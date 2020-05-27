@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Папки и файлі которые Git должен игнорировать
+.vscode
+.idea
+.DS_Store
+node_modules
+.env
+build/
+*.psd
+
 # User-specific files
 *.rsuser
 *.suo
@@ -79,7 +88,7 @@ StyleCopReport.xml
 *.pgd
 *.rsp
 *.sbr
-*.tlb
+*.tlb 
 *.tli
 *.tlh
 *.tmp
